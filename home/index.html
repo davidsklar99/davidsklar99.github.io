@@ -1,10 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Sklar - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2a2a2a;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #444;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .section-header {
+            font-weight: bold;
+            color: #444;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills div {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Home</h1>
-    <p>Welcome to the home page.</p>
+
+<div class="container">
+    <header>
+        <h1>David Sklar</h1>
+        <div class="contact-info">
+            <p>
+                <a href="mailto:dsklar@wisc.edu">dsklar@wisc.edu</a> | Madison, WI | (551) 502-4787<br>
+                <a href="https://linkedin.com/in/davidesklar/">linkedin.com/in/davidesklar/</a> | 
+                <a href="https://github.com/davidsklar99">github.com/davidsklar99</a>
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <h2>EDUCATION</h2>
+        <p><strong>University of Wisconsin-Madison</strong> - Madison, WI<br>
+        <strong>Bachelor of Science:</strong> Computer Science, Data Science - December 2026<br>
+        Certificate in Business - Cumulative GPA: 3.95/4.0</p>
+    </section>
+
+    <section>
+        <h2>EXPERIENCE</h2>
+        <div>
+            <h3 class="section-header">President of Freestyle Team</h3>
+            <p><strong>Hoofers Ski and Snowboard Club</strong> - Madison, WI | August 2024 – Present</p>
+            <ul>
+                <li>Developing and coordinating a comprehensive plan to provide skiing access to all club members during the winter season.</li>
+                <li>Establishing the team budget by analyzing club funding and anticipated income.</li>
+                <li>Volunteering over 30 hours annually for the Ski Resale event to support the club’s endowment.</li>
+            </ul>
+
+            <h3 class="section-header">Undergraduate Research Assistant</h3>
+            <p><strong>University of Wisconsin-Madison: Macrostrat Lab</strong> - Madison, WI | February 2024 – Present</p>
+            <ul>
+                <li>Redesigning the Macrostrat and Rockd websites in collaboration with the software development team.</li>
+                <li>Modernizing the homepage using React/Vike to make the site more dynamic and user-friendly.</li>
+            </ul>
+
+            <h3 class="section-header">Chief Technology Officer</h3>
+            <p><strong>Snow Scholars</strong> - Madison, WI | June 2023 – January 2025</p>
+            <ul>
+                <li>Helped grow the company to a $750K valuation and secured investment from Mark Cuban on Shark Tank.</li>
+                <li>Researched and formalized a scalable software plan for the winter season.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>PROJECTS</h2>
+        <h3 class="section-header">Rockd Web Development (TS, JS, CSS)</h3>
+        <p>July 2024 – Present</p>
+        <ul>
+            <li>Collaborated on redesigning the “Trip Viewer” and “Explore” interface to improve UX and speed.</li>
+            <li>Designed the webpage to interact with the new API for better data retrieval and user experience.</li>
+        </ul>
+
+        <h3 class="section-header">Macrostrat Web Development & Testing (TS, HTML, CSS)</h3>
+        <p>February 2024 – August 2024</p>
+        <ul>
+            <li>Optimized the website by moving images to an S3 bucket and simplifying the code structure.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>SKILLS</h2>
+        <div class="skills">
+            <div><strong>Programming Languages:</strong><br> Java, Python, Javascript, TypeScript, Bash, R, C, SQL, HTML, CSS, Assembly</div>
+            <div><strong>Software:</strong><br> AWS, Linux, Retool, Wix, PostgreSQL</div>
+            <div><strong>Concepts:</strong><br> Object-Oriented Programming, Data Structures, Algorithms, UX, SEO, Databases</div>
+        </div>
+    </section>
+</div>
+
 </body>
 </html>
